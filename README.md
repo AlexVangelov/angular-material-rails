@@ -1,4 +1,4 @@
-# sencha-touch-rails
+# angular-material-rails
 
 This gem provides:
 
