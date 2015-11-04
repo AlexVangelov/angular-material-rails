@@ -5,7 +5,7 @@ module AngularMaterial
   module Rails
     class Engine < ::Rails::Engine
       initializer "add assets" do |app|
-        #app.assets.register_engine '.angular-material', AngularMaterial::Rails::Template
+        #app.config.assets.paths << "#{Gem.loaded_specs['compass-core'].full_gem_path}/stylesheets"
       end
     end
   end

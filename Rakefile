@@ -11,5 +11,6 @@ task :download_angular_material do
 end
 
 task :install_angular_material do
-  
+  FileUtils.cp_r "angular-material/material-1.0.0-rc2/src","vendor/assets/javascripts/angular-material"
+  FileUtils.cp_r "angular-material/material-1.0.0-rc2/src","vendor/assets/stylesheets/angular-material"
 end

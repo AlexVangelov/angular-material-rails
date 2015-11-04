@@ -2,3 +2,4 @@ sencha-touch-rails-*.gem
 pkg
 .project
 Gemfile.lock
+angular-material
