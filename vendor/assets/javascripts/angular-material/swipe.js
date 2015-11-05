@@ -1,0 +1,1 @@
+//= require ./components/swipe/swipe

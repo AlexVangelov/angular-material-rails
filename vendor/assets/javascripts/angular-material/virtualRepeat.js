@@ -1,0 +1,1 @@
+//= require ./components/virtualRepeat/virtual-repeater
