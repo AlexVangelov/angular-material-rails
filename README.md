@@ -24,7 +24,13 @@ Add to `app/assets/javascripts/application.js`:
 
     //= require angular-material-rails
 
-To include only choosen Angular Material components, create `app/assets/javascripts/angular-material-custom` and use:
+Add to `app/assets/stylesheets/application.css`
+
+    *= require angular-material-rails
+
+###To include only choosen Angular Material components:
+
+Create `app/assets/javascripts/angular-material-custom`:
 
     //= require angular-material/core
       
@@ -66,4 +72,43 @@ To include only choosen Angular Material components, create `app/assets/javascri
     //= require angular-material/virtual_repeat
     //= require angular-material/whiteframe
 
-## A work in progress...
+Create `app/assets/stylesheets/angular-material-custom`:
+
+    @import 'angular-material/core/style/variables';
+    @import 'angular-material/base';
+    
+    @import 'angular-material/autocomplete';
+    @import 'angular-material/backdrop';
+    @import 'angular-material/bottom-sheet';
+    @import 'angular-material/button';
+    @import 'angular-material/card';
+    @import 'angular-material/checkbox';
+    @import 'angular-material/chips';
+    @import 'angular-material/content';
+    @import 'angular-material/datepicker';
+    @import 'angular-material/dialog';
+    @import 'angular-material/divider';
+    @import 'angular-material/fab-speed-dial';
+    @import 'angular-material/fab-toolbar';
+    @import 'angular-material/grid-list';
+    @import 'angular-material/icon';
+    @import 'angular-material/input';
+    @import 'angular-material/list';
+    @import 'angular-material/menu';
+    @import 'angular-material/menu-bar';
+    @import 'angular-material/progress-circular';
+    @import 'angular-material/progress-linear';
+    @import 'angular-material/radio-button';
+    @import 'angular-material/select';
+    @import 'angular-material/sidenav';
+    @import 'angular-material/slider';
+    @import 'angular-material/sticky';
+    @import 'angular-material/subheader';
+    @import 'angular-material/switch';
+    @import 'angular-material/tabs';
+    @import 'angular-material/toast';
+    @import 'angular-material/toolbar';
+    @import 'angular-material/tooltip';
+    @import 'angular-material/virtual-repeat';
+    @import 'angular-material/whiteframe';
+
