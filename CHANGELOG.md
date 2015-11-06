@@ -1,5 +1,6 @@
 ## 0.0.4 (4 Nov 2015)
 
+  - complete sass imports
   - self require angular modules
   - use underscore file names
 
