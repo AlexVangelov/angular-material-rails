@@ -24,13 +24,17 @@ Add to `app/assets/javascripts/application.js`:
 
     //= require angular-material-rails
 
-Add to `app/assets/stylesheets/application.css`
+Rename `app/assets/stylesheets/application.css` to `app/assets/stylesheets/application.scss`
 
-    *= require angular-material-rails
+    /*
+     *= require_tree .
+     *= require_self
+     */
+    @import 'angular-material-rails';
 
 ###To include only choosen Angular Material components:
 
-Create `app/assets/javascripts/angular-material-custom`:
+Create `app/assets/javascripts/angular-material-custom.js`:
 
     //= require angular-material/core
       
@@ -72,7 +76,7 @@ Create `app/assets/javascripts/angular-material-custom`:
     //= require angular-material/virtual_repeat
     //= require angular-material/whiteframe
 
-Create `app/assets/stylesheets/angular-material-custom`:
+Create `app/assets/stylesheets/angular-material-custom.scss`:
 
     @import 'angular-material/core/style/variables';
     @import 'angular-material/base';
