@@ -2,5 +2,22 @@
 This file includes Angualr Material base stylesheet files in Rails Asset Pipeline
 @author Alex Vangelov <email@data.bg>
 */
-@import 'angular-material/core/style/variables.scss';
-@import 'angular-material/core/style/mixins.scss';
+@import 'angular-material/core/style/variables';
+@import 'angular-material/base';
+
+@import 'angular-material/autocomplete';
+@import 'angular-material/backdrop';
+@import 'angular-material/bottom-sheet';
+@import 'angular-material/button';
+@import 'angular-material/card';
+@import 'angular-material/checkbox';
+@import 'angular-material/chips';
+@import 'angular-material/content';
+@import 'angular-material/datepicker';
+@import 'angular-material/dialog';
+@import 'angular-material/divider';
+@import 'angular-material/fab-speed-dial';
+@import 'angular-material/fab-toolbar';
+@import 'angular-material/grid-list';
+@import 'angular-material/icon';
+@import 'angular-material/input';

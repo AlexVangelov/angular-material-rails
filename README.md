@@ -18,7 +18,7 @@ Keep in mind that Angular Material is downloaded during the gem installation and
 
     $ gem install angular-material-rails --verbose
 
-Angular Material files will be added to the asset pipeline and available to use. 
+Angular Material files will be added to the asset pipeline. 
 
 Add to `app/assets/javascripts/application.js`:
 
@@ -30,7 +30,7 @@ To include only choosen Angular Material components, create `app/assets/javascri
       
     //= require angular-material/autocomplete
     //= require angular-material/backdrop
-    //= require angular-material/bottomSheet
+    //= require angular-material/bottom_sheet
     //= require angular-material/button
     //= require angular-material/card
     //= require angular-material/checkbox
@@ -39,19 +39,19 @@ To include only choosen Angular Material components, create `app/assets/javascri
     //= require angular-material/datepicker
     //= require angular-material/dialog
     //= require angular-material/divider
-    //= require angular-material/fabActions
-    //= require angular-material/fabSpeedDial
-    //= require angular-material/fabToolbar
-    //= require angular-material/fabTrigger
-    //= require angular-material/gridList
+    //= require angular-material/fab_actions
+    //= require angular-material/fab_speed_dial
+    //= require angular-material/fab_toolbar
+    //= require angular-material/fab_trigger
+    //= require angular-material/grid_list
     //= require angular-material/icon
     //= require angular-material/input
     //= require angular-material/list
     //= require angular-material/menu
-    //= require angular-material/menuBar
-    //= require angular-material/progressCircular
-    //= require angular-material/progressLinear
-    //= require angular-material/radioButton
+    //= require angular-material/menu_bar
+    //= require angular-material/progress_circular
+    //= require angular-material/progress_linear
+    //= require angular-material/radio_button
     //= require angular-material/select
     //= require angular-material/sidenav
     //= require angular-material/slider
@@ -63,7 +63,7 @@ To include only choosen Angular Material components, create `app/assets/javascri
     //= require angular-material/toast
     //= require angular-material/toolbar
     //= require angular-material/tooltip
-    //= require angular-material/virtualRepeat
+    //= require angular-material/virtual_repeat
     //= require angular-material/whiteframe
 
 ## A work in progress...

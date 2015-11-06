@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.extensions   = 'ext/mkrf_conf.rb'
   s.require_path = 'lib'
   
+  s.add_dependency "sprockets", "<3.0.0"
   s.add_dependency "rubyzip"
   #s.add_dependency "thor"
 end

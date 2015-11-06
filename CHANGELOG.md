@@ -1,3 +1,8 @@
+## 0.0.4 (4 Nov 2015)
+
+  - self require angular modules
+  - use underscore file names
+
 ## 0.0.3 (4 Nov 2015)
 
   - Javascript assets schema

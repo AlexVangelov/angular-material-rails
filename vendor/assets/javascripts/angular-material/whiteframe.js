@@ -1,1 +1,3 @@
-//= require ./components/whiteframe/whiteframe
+//= include ./components/whiteframe/whiteframe.js
+
+angular.module('ngMaterial').requires.push('material.components.whiteframe');

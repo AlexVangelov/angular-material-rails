@@ -1,5 +1,7 @@
-//= require ./components/datepicker/calendar
-//= require ./components/datepicker/calendarMonth
-//= require ./components/datepicker/dateLocaleProvider
-//= require ./components/datepicker/datePicker
-//= require ./components/datepicker/dateUtil
+//= include ./components/datepicker/calendar.js
+//= include ./components/datepicker/calendarMonth
+//= include ./components/datepicker/dateLocaleProvider
+//= include ./components/datepicker/datePicker.js
+//= include ./components/datepicker/dateUtil
+
+angular.module('ngMaterial').requires.push('material.components.datepicker');
