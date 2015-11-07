@@ -4,6 +4,11 @@ This gem provides:
 
 * Angular Material
 
+### * Work in progress
+To be done:
+  - theming
+  - layouts
+
 ## Installation
 
 Add this line to your application's Gemfile:

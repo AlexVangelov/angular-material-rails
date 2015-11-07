@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["email@data.bg"]
   s.homepage    = "http://rubygems.org/gems/angular-material-rails"
   s.summary     = "Using Angular Material with Rails"
-  s.description = "This gem provides Angular Material to Rails assets pipeline"
+  s.description = "This gem adds Angular Material to Rails assets pipeline"
   s.licenses     = ["AV","MIT"]
 
   #s.required_rubygems_version = ">= 1.3.6"

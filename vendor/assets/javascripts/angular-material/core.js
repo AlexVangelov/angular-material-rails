@@ -21,4 +21,11 @@
 //= include ./core/util/media
 //= include ./core/util/util
 
-angular.module('ngMaterial', ['ng', 'ngAnimate', 'ngAria', 'material.core']);
+angular.module('ngMaterial', ['ng', 'ngAnimate', 'ngAria', 
+  'material.core', 
+  'material.core.gestures', 
+  'material.core.layout', 
+  'material.core.theming.palette', 
+  'material.core.theming', 
+  'material.core.animate'
+]);

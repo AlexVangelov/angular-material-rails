@@ -1,3 +1,7 @@
+## 0.0.5 (7 Nov 2015)
+
+  - add missing core modules
+
 ## 0.0.4 (4 Nov 2015)
 
   - complete sass imports
